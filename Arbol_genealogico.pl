@@ -38,3 +38,8 @@ mujer(lisa).
 mujer(maggie).
 mujer(ling).
 
+%REGLAS:
+
+primo_de(X,Y) :- hombre(X), madre_de(Z,M), madre_de(Z,P), madre_de(P,X), madre_de(M,Y), P \= M.
+prima_de(X,Y) :- mujer(X), madre_de(Z,M), madre_de(Z,P), madre_de(P,X), madre_de(M,Y), P \= M.
+
