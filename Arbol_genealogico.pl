@@ -21,3 +21,20 @@ madre_de(jacqueline, marge).
 madre_de(jacqueline, patty).
 madre_de(jacqueline, selma).
 madre_de(selma, ling).
+
+% Definición de género
+hombre(abraham).
+hombre(homero).
+hombre(herbert).
+hombre(clancy).
+hombre(bart).
+
+mujer(mona).
+mujer(jacqueline).
+mujer(marge).
+mujer(patty).
+mujer(selma).
+mujer(lisa).
+mujer(maggie).
+mujer(ling).
+
